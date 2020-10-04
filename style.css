@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{/*
+	font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Piazzolla', serif;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.search{
+	float: right;
+}
+.topnav button{
+	margin-right: 100px;
+	  background: #ddd;
+	  padding: 9px;
+  font-size: 17px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search button:hover {
+  background: #ccc;
+}
+
+.topnav input[type=text] {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 5px 10px;
+  margin-right: 0px;
+  border-radius: 4px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+/* Change the color of links on hover */
+
+
+.nav{
+	color: white;
+	margin: 10px;
+	margin-left: 60px;
+	letter-spacing: 0.75rem;
+}
+
+.outerbanner{
+	min-height: calc(70vh - 66px);
+	background: url("space.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner{
+	display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: grey;
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.75rem;
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+.banner div {
+  width: 15rem;
+  height: 5px;
+  background: black;
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.courses_out{
+	
+  	display: flex;
+  	background-color: white;
+  	align-items: center;
+  	justify-content: center;
+}
+.section-title {
+  text-align: center;
+  margin-top: 20px;
+}
+.section-title h4 {
+  font-size: 2rem;
+  letter-spacing: 0.75rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: black;
+}
+.out{
+	margin-top: 40px;
+	display: inline-block;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: relative;
+}
+.boxes{
+	display: inline-block;
+	background: url("space.jpg") center/cover no-repeat;
+	width: 20rem;
+	height: 240px;
+	margin: 20px 60px;
+	position: relative;
+}
+.name{
+	width: 20rem;
+	padding: 14px 0;
+	position: absolute;
+	bottom: 0;
+	background-color: grey; 
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 0.30rem;
+}
+.price{
+	position: absolute;
+	right: 0;
+	padding: 15px;
+	background-color: black;
+	color: white;
+	border-bottom-left-radius: 25px;
+}
+.boxes:hover{
+	transform: scale(1.1);
+	transition: all 0.3s linear;
+}
+.info{
+	position: absolute;
+	top: 37%;
+	left: 37%;
+	border: 3px solid black;
+	padding: 10px 20px;
+	font-weight: 800;
+}
+.info:hover{
+	background-color: wheat;
+	cursor: pointer;
+}
+.d{
+	width: 12rem!important;
+}
+#boxes{
+	text-align: center!important;
+	left: 30%;
+}
+.check{
+	margin: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.check div{
+	margin: 20px;
+	background-color: wheat;
+	padding: 30px 70px;
+}
+.check label {
+	margin-left: 10px;
+	letter-spacing: 0.25rem;
+	font-weight: 800;
+	font-size: 1.2rem
+}
+.check b{
+	float: right;
+	font-weight: 900;
+}
+.ques{
+	justify-content: center;
+	text-align: center;
+	font-size: 1.1rem;
+	letter-spacing: 0.2rem;
+}
+#check{
+	display: inline-block;
+}
+#check div{
+	margin: 20px 40px;
+	display: inline-flex;
+}
+#check input{
+	top:50%!important;
+}
